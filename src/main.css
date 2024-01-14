@@ -1,0 +1,62 @@
+@import 'normalize.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+    font-size: 16px; /* Default font size for the root element */
+  }
+  
+  body {
+    margin: 8px; /* Default margin around the body */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em; /* Default font sizes for heading elements */
+    font-weight: bold; /* Default font weight for headings */
+  }
+  
+  p {
+    margin: 0 0 1em; /* Default margin and spacing for paragraphs */
+  }
+  
+  a {
+    color: #00f; /* Default link color */
+    text-decoration: underline; /* Default link text decoration */
+  }
+  
+  ul, ol {
+    margin: 0 0 1em 2em; /* Default margin and indentation for lists */
+  }
+  
+  li {
+    margin-bottom: 0.5em; /* Default margin between list items */
+  }
+  
+  img {
+    max-width: 100%; /* Default maximum width for images */
+    height: auto; /* Maintain aspect ratio for images */
+  }
+  
+  /* Default styles for form elements */
+  input, textarea, select, button {
+    margin: 0; /* Remove default margin */
+    font-family: inherit; /* Inherit font-family from the parent element */
+    font-size: 1em; /* Default font size for form elements */
+  }
+  
+  button {
+    cursor: pointer; /* Default cursor style for buttons */
+  }
+  
+  /* Default styles for tables */
+  table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Default width for tables */
+  }
+  
+  th, td {
+    border: 1px solid #000; /* Default border for table cells */
+    padding: 0.5em; /* Default padding for table cells */
+  }
+  

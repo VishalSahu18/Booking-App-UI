@@ -1,0 +1,8 @@
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+.next/
+.out/

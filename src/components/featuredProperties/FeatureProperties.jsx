@@ -1,0 +1,66 @@
+import React from "react";
+
+const FeatureProperties = () => {
+  return (
+    <div className="fp w-full max-w-full flex justify-between gap-5">
+      <div className="fpItem flex-1 gap-[10px] flex flex-col">
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          alt=""
+          className="fpImg w-full"
+        />
+        <span className="fpName font-bold ">Aparthotel Stare Miasto</span>
+        <span className="fpCity font-light">Madrid</span>
+        <span className="fpPrice font-medium">Starting from $120</span>
+        <div className="fpRating">
+          <button className="border-none bg-[#003580] text-white p-[3px] mr-2 font-bold">8.9</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+      <div className="fpItem flex-1 gap-[10px] flex flex-col">
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          alt=""
+          className="fpImg w-full"
+        />
+        <span className="fpName font-bold">Comfort Suites Airport</span>
+        <span className="fpCity font-light">Austin</span>
+        <span className="fpPrice font-medium">Starting from $140</span>
+        <div className="fpRating">
+          <button className="border-none bg-[#003580] text-white p-[3px] mr-2 font-bold">9.3</button>
+          <span>Exceptional</span>
+        </div>
+      </div>
+      <div className="fpItem flex-1 gap-[10px] flex flex-col">
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          alt=""
+          className="fpImg w-full"
+        />
+        <span className="fpName font-bold">Four Seasons Hotel</span>
+        <span className="fpCity font-light">Lisbon</span>
+        <span className="fpPrice font-medium">Starting from $99</span>
+        <div className="fpRating">
+          <button className="border-none bg-[#003580] text-white p-[3px] mr-2 font-bold">8.8</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+      <div className="fpItem flex-1 gap-[10px] flex flex-col">
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          alt=""
+          className="fpImg w-full"
+        />
+        <span className="fpName font-bold">Hilton Garden Inn</span>
+        <span className="fpCity font-light">Berlin</span>
+        <span className="fpPrice font-medium">Starting from $105</span>
+        <div className="fpRating">
+          <button className="border-none bg-[#003580] text-white p-[3px] mr-2 font-bold">8.9</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FeatureProperties;
