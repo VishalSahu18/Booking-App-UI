@@ -14,6 +14,11 @@ This repository contains the user interface (UI) code for a hotel booking applic
 - **Version Control:** Git and GitHub
 
 ## Screenshots
+![image](https://github.com/VishalSahu18/Booking-App-UI/assets/92618022/a1cff741-4775-45f2-9a3d-bd8e6b03ff7b)
+
+![image](https://github.com/VishalSahu18/Booking-App-UI/assets/92618022/cff01119-98f7-4949-8094-dfb246030e03)
+
+![image](https://github.com/VishalSahu18/Booking-App-UI/assets/92618022/1b02ea04-f0da-4487-abb5-6fb6786d0687)
 
 
 ## Getting Started
